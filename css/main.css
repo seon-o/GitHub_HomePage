@@ -1,5 +1,5 @@
-/* common */
-.body__containery {
+
+.body__container {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -94,7 +94,8 @@ a {
 
 /* Summary */
 
-.summary {}
+.summary {
+}
 
 .summary__title {
   font-size: 38px;
@@ -153,7 +154,7 @@ header .logo a {
   text-indent: -9999px;
 }
 
-head .logo a:hover {
+header .logo a:hover {
   background: url("../img/logo_on.svg");
 }
 
@@ -196,7 +197,7 @@ header .btn-group .sign-in {
   font-size: 14px;
 }
 
-#search+[type="submit"] {
+#search + [type="submit"] {
   display: none;
 }
 
@@ -383,7 +384,8 @@ header .sub-menu li a:hover {
 
 /* Where is  */
 
-.section--where-is {}
+.section--where-is {
+}
 
 .section--where-is .inner {
   padding-top: 80px;
@@ -438,7 +440,8 @@ header .sub-menu li a:hover {
 
 /* Footer */
 
-footer {}
+footer {
+}
 
 footer .inner {
   padding: 50px 0;
